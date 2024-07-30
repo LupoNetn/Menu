@@ -1,0 +1,172 @@
+
+/* NAVBAR SECTION */
+.navbar-nav {
+    font-size: 16px;
+    margin-left: 70%;
+}
+.nav-link:active {
+    color: black;
+}
+
+/* HEADER SECTION */
+.header-text {
+    text-align: center;
+    margin: 5% 20%;
+}
+
+
+.img {
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.hr {
+    margin: 5% 2%;
+    width: 20%;
+    border-bottom: none;
+    border-top: 5px dotted gray;
+
+}
+
+
+/* PC ONLY GRID SYSTEM */
+.inner-row {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 1% 0 3% 2%;
+
+}
+
+.inner-row p {
+    width: 50%;
+}
+
+.text-container-pc {
+    margin: 5% 10%;
+}
+
+.text {
+    width: 50%;
+    text-align: center;
+    margin: 2% auto 2% auto;
+    border: 1px dotted gray;
+    border-radius: 50px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-row {
+    padding: 7%;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: gray;
+}
+
+ul {
+    margin: 0 auto 0 22%;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+/* MAX-WIDTH: 767px(MOBILE DEVICES ONLY) */
+@media (max-width: 767px) {
+
+    /* NAVBAR */
+    .navbar-nav {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .hr {
+        width: 20%;
+        border-bottom: none;
+        border-top: 5px dotted gray;
+
+    }
+
+    /* MOBILE ONLY CAROUSEL */
+    .carousel {
+        margin: 5% 5%;
+        padding: 8% 8%;
+        border: 2px solid white;
+        border-radius: 20px;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+
+    .text {
+        width: 100%;
+        margin: 5% 2%;
+        border: 1px dotted gray;
+        border-radius: 50px;
+        text-align: center;
+
+    }
+
+    /* FOOTER SECTION */
+
+    .footer {
+        background-color: black;
+        color: white;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-row {
+        padding: 7%;
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+    }
+
+    link:hover {
+        color: gray;
+    }
+
+    ul {
+        margin: 0 auto 0 22%;
+        text-align: left;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .copyright-p {
+        margin-top: 10%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* NAVBAR SECTION */
+    .navbar-nav {
+        font-size: 16px;
+        margin-left: 50%;
+    }
+}

@@ -1,0 +1,269 @@
+
+
+
+/* NAVBAR SECTION */
+.navbar-nav {
+    font-size: 16px;
+    margin-left: 70%;
+}
+.nav-link:active {
+    color: black;
+}
+
+/* HERO SECTION */
+.hero-section {
+    margin-top: 8%;
+}
+
+.text-container {
+    font-size: 1.2rem;
+    width: 30%;
+}
+
+.img-head {
+    margin-left: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+
+/* MENU CATALOGUE */
+.container-pc {
+    margin-top: 10%;
+}
+
+.menu-text {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.menu-link {
+    margin: -1% auto 0 auto;
+    text-align: center;
+}
+
+.hr {
+    margin: 5% 2%;
+    width: 20%;
+    border-bottom: none;
+    border-top: 5px dotted gray;
+
+}
+
+.img {
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+/* PC ONLY MENU DISPLAY STYLES */
+.inner-row {
+
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 1% 0 3% 2%;
+
+}
+
+.inner-row p {
+    width: 50%;
+}
+
+
+/* MOBILE ONLY MENU DISPLAY STYLES */
+.carousel {
+    margin: 5% 5%;
+    padding: 8% 8%;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+/*  REVIEW SECTION */
+.review-section-text {
+    width: 50%;
+    margin: 10% auto 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.review-img {
+    border-radius: 50%;
+    float: left;
+    margin: 5%;
+}
+
+.review-p1 {
+    margin: 0 auto 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.review-p {
+    margin-top: 10%;
+}
+
+.review-carousel {
+    text-align: left;
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-row {
+    padding: 7%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+ul {
+    margin: 0 auto 0 22%;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* MAX-WIDTH: 767px(MOBILE DEVICES ONLY) */
+@media (max-width: 767px) {
+
+    .navbar-nav {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+        margin-top: 8%;
+    }
+
+    .img-head {
+        margin: 5% auto 0 auto;
+        border: 2px solid white;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+
+    .text-container {
+        margin: 0 auto 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    /*MENU CATALOGUE */
+
+    .menu-link {
+        margin: 5% auto 0 auto;
+    }
+
+    .img-container {
+        text-align: center;
+    }
+
+
+    .text {
+        width: 100%;
+        margin: 5% 2%;
+        border: 1px dotted gray;
+        border-radius: 50px;
+        text-align: center;
+
+    }
+
+    /* REVIEW SECTION */
+    .review-section-text {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .review-p1 {
+        width: 90%;
+    }
+
+    /* FOOTER SECTION */
+
+    .footer {
+        background-color: black;
+        color: white;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-row {
+        padding: 7%;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: gray;
+    }
+
+    ul {
+        margin: 0 auto 0 22%;
+        text-align: left;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .copyright-p {
+        margin-top: 10%;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .navbar-nav {
+        font-size: 16px;
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1336px) {
+    /* DUE TO VARIATIONS IN WIDTH I ADDED THIS MEDIA QUERY TO COVER A WIDE RANGE OG PC'S FOR THE HERO SECTION */
+    .text-container {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    
+    
+    .img-head {
+        margin-left: 10%;
+        border: 2px solid white;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
